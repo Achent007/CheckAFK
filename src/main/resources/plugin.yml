@@ -1,0 +1,22 @@
+name: CheckAFK
+version: '${project.version}'
+main: be.achent.checkafk.CheckAFK
+load: STARTUP
+softdepend: [PlaceHolderAPI]
+author: 'Achent'
+commands:
+  checkafk:
+    description: Commande principale du plugin
+    aliases: btl
+permissions:
+  blocktotemlore.*:
+    description: Donne toutes les permissions du plugin
+    children:
+      blocktotemlore.help: true
+      blocktotemlore.reload: true
+  blocktotemlore.help:
+    description: Donne la permission d'afficher les commandes du plugin
+    default: op
+  blocktotemlore.reload:
+    description: Donne la permission de recharger le fichier de config
+    default: op
