@@ -1,0 +1,5 @@
+# Message displayed when a player do /checkafk without the permission.
+NoPermission: "&7[&cCheckAFK&7] &cYou don't have the permission to do this."
+
+# Message displayed when the command /blocktotemlore reload is done.
+Reloaded: "&7[&cCheckAFK&7] &aPlugin reloaded successfully."

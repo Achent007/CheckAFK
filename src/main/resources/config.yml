@@ -1,0 +1,8 @@
+# List of all sounds that can be eared by the player when he is verified by a staff.
+sound:
+
+# List of all message that can be sent to the player for the verification.
+player-check-message:
+
+# Message sent to the staff when he executes the /checkafk command.
+staff-message:
