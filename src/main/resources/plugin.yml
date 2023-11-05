@@ -6,17 +6,20 @@ softdepend: [PlaceHolderAPI]
 author: 'Achent'
 commands:
   checkafk:
-    description: Commande principale du plugin
-    aliases: btl
+    description: main command
 permissions:
-  blocktotemlore.*:
-    description: Donne toutes les permissions du plugin
+  checkafk.*:
+    description: Give all permissions of the plugin
     children:
-      blocktotemlore.help: true
-      blocktotemlore.reload: true
-  blocktotemlore.help:
-    description: Donne la permission d'afficher les commandes du plugin
+      checkafk.help: true
+      checkafk.staff: true
+      checkafk.reload: true
+  checkafk.staff:
+    description: Permission to give to the staff for allowing to execute the command
     default: op
-  blocktotemlore.reload:
-    description: Donne la permission de recharger le fichier de config
+  checkafk.help:
+    description: Permission to see the help command
+    default: op
+  checkafk.reload:
+    description: Permission to execute the /checkafk reload command
     default: op

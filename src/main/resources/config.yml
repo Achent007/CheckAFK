@@ -1,5 +1,8 @@
 # List of all sounds that can be eared by the player when he is verified by a staff.
-sound:
+# https://jd.andross.fr/1.12.2/org/bukkit/Sound.html
+sounds:
+  - BLOCK_ANVIL_PLACE
+  - BLOCK_ANVIL_BREAK
 
 # List of all message that can be sent to the player for the verification.
 player-check-message:

@@ -1,3 +1,6 @@
+# customize the preview of the /checkafk.
+Help-command: "&e/checkafk <player> &f&l» &7Send an anti-AFK verification to the player."
+
 # Message displayed when a player do /checkafk without the permission.
 NoPermission: "&7[&cCheckAFK&7] &cYou don't have the permission to do this."
 

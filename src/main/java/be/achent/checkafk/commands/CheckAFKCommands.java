@@ -14,8 +14,7 @@ public class CheckAFKCommands implements CommandExecutor {
         if (args.length == 0) {
             if (sender.hasPermission("checkafk.reload") || sender.hasPermission("checkafk.help")) {
                 sender.sendMessage("");
-                sender.sendMessage(ChatColor.GOLD + "/checkafk" + ChatColor.WHITE + ": Commandes de CheckAFK");
-                sender.sendMessage(ChatColor.GOLD + "/checkafk reload" + ChatColor.WHITE + ": Recharge le fichier de config.");
+                sender.sendMessage(plugin.getMessage("Help-command"));
                 sender.sendMessage("");
             } else {
                 sender.sendMessage(plugin.getMessage("NoPermission"));
